@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University's Website</title>
+    <link rel="stylesheet" href="stylesss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="indexxx.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="indexxx.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+     </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+<!----ABout us-->
+    <section class="about-us">
+        <div class="row">
+        <div class="about-col">
+            <h1>We are one of the world's best University.</h1>
+            <p>We pride ourselves in having excellent academic infrastructure and resources to support our students throughout
+                their educational journey. Furthermore, we ensure that the support you receive through our team is unparalleled
+                and will help you accomplish the goals you aspire to achieve.</p>
+       <a href="" class="herobtn red-btn">Explore now</a>
+    </div>
+    
+    
+    <div class="about-col">
+    <img src="images/about.jpg">
+       </div>
+    </div>
+    </section>
+  
+
+ <!------Footer-->
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>This is a high-level educational institution in which students study for degrees and
+        academic research is done.We help you develop yourself <br>Hearty welcome to The University Of Smarika!</p>
+ <div class="icons">
+    <i class="fa fa-facebook" ></i>
+    <i class="fa fa-twitter" ></i>
+    <i class="fa fa-instagram" ></i>
+    <i class="fa fa-linkedin" ></i>
+ </div>
+ <p>Made with <i class="fa fa-heart-o" ></i> by Smarikaa!</p>
+ 
+    </section>
+
+    <!---Javascript code for toggle menu!-->
+    <script>
+        var navlinks= document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="-20px";
+        }
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
